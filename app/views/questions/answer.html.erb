@@ -1,20 +1,22 @@
-<figure>
-  <blockquote class="blockquote">
-    <p><%= @question %></p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Your message
-  </figcaption>
-</figure>
-<figure>
-  <blockquote class="blockquote">
-    <p><%= @answer %></p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Coach's reply
-  </figcaption>
-</figure>
+<div class="container mt-3 mb-5">
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= @question %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Your message
+    </figcaption>
+  </figure>
+  <figure>
+    <blockquote class="blockquote">
+      <p><%= @answer %></p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Coach's reply
+    </figcaption>
+  </figure>
+</div>
 
-<div mt-5>
-<%= link_to "Ask another question.", ask_path %>
+<div>
+<%= link_to "Ask another question.", root_path %>
 </div>
